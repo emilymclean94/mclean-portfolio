@@ -1,12 +1,15 @@
 import Link from "next/link";
+import RootLayout from "./layout";
 
-// export default function Home() {
-//   return (
-//     <main className="">
-     
-//     </main>
-//   )
-// }
+function Home() {
+  return (
+    <main className="">
+
+    </main>
+  )
+}
+
+export default Home;
 
 //! Welcome to the Pseudo Code!!
 

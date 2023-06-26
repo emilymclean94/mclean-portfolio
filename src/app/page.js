@@ -9,11 +9,11 @@
 //! Welcome to the Pseudo Code!!
 
 // TODO: Import httplink from Apollo client in App.js
-  // ? For each nav link = as={link} to="/"
-  // ? For each nav link = as={link} to="/about"
-  // ? For each nav link = as={link} to="/portfolio"
-  // ? For each nav link = as={link} to="/resume"
-  // ? For each nav link = as={link} to="/contact"
+  // ? For each nav link -> as={link} to="/"
+  // ? For each nav link -> as={link} to="/about"
+  // ? For each nav link -> as={link} to="/portfolio"
+  // ? For each nav link -> as={link} to="/resume"
+  // ? For each nav link -> as={link} to="/contact"
 
 // TODO: Header/Navbar
   // ? Full name links to homepage
@@ -26,6 +26,8 @@
     // * onClick and event handler
   // ? Link to contact form
     // * onClick and event handler
+  // ? onHover for all nav links
+  // ? onHover for name in top left to link to homepage
 
 // TODO: Footer
   // ? Github link

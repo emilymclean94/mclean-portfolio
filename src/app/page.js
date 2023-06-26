@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 // export default function Home() {
 //   return (
 //     <main className="">
@@ -8,12 +10,12 @@
 
 //! Welcome to the Pseudo Code!!
 
-// TODO: Import httplink from Apollo client in App.js
-  // ? For each nav link -> as={link} to="/"
-  // ? For each nav link -> as={link} to="/about"
-  // ? For each nav link -> as={link} to="/portfolio"
-  // ? For each nav link -> as={link} to="/resume"
-  // ? For each nav link -> as={link} to="/contact"
+// TODO: Import Link
+  // ? <Link href="/">Home</Link>
+  // ? <Link href="/about">About Me</Link>
+  // ? <Link href="/portfolio">Portfolio</Link>
+  // ? <Link href="/resume">Resume</Link>
+  // ? <Link href="/contact">Contact Me</Link>
 
 // TODO: Header/Navbar
   // ? Full name links to homepage

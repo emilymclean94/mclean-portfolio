@@ -15,25 +15,21 @@ export default Home;
 //! Welcome to the Pseudo Code!!
 
 // DONE: Import Link
-  // ? <Link href="/">Home</Link>
-  // ? <Link href="/about">About Me</Link>
-  // ? <Link href="/portfolio">Portfolio</Link>
-  // ? <Link href="/resume">Resume</Link>
-  // ? <Link href="/contact">Contact Me</Link>
+  // <Link href="/">Home</Link>
+  // <Link href="/about">About Me</Link>
+  // <Link href="/portfolio">Portfolio</Link>
+  // <Link href="/resume">Resume</Link>
+  // <Link href="/contact">Contact Me</Link>
 
 // TODO: Header/Navbar
-  // ? Full name links to homepage
-    // * onClick and event handler
-  // ? Link to About
-    // * onClick and event handler
-  // ? Link to Portfolio
-    // * onClick and event handler
-  // ? Link to Resume
-    // * onClick and event handler
-  // ? Link to contact form
-    // * onClick and event handler
+  //  Full name links to homepage
+  //  Link to About
+  //  Link to Portfolio
+  //  Link to Resume
+  //  Link to contact form
   // ? onHover for all nav links
   // ? onHover for name in top left to link to homepage
+  
 
 // TODO: Footer
   // ? Github link

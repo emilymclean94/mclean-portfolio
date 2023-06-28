@@ -19,6 +19,13 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    colors: {
+      'pink-dark': '#cb997e',
+      'pink-light': '#ffe8d6',
+      'pink-dusty': '#ddbea9',
+      'green-dark': '#5d6250',
+
+    }
   },
   plugins: [],
 }

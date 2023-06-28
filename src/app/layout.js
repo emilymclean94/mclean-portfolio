@@ -1,4 +1,5 @@
-import './globals.css'
+import './globals.css';
+import NavBar from './components/Navbar';
 
 export const metadata = {
   title: 'Emily McLean',
@@ -9,9 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <header>
-          <h1>Hello World!</h1>
-        </header>
+        <NavBar />
         {children}
       </body>
     </html>

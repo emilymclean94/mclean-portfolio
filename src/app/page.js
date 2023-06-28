@@ -5,7 +5,7 @@ import NavBar from "./components/Navbar";
 function Home() {
   return (
     <main className="">
-      <NavBar />
+      
     </main>
   )
 }
@@ -14,7 +14,7 @@ export default Home;
 
 //! Welcome to the Pseudo Code!!
 
-// TODO: Import Link
+// DONE: Import Link
   // ? <Link href="/">Home</Link>
   // ? <Link href="/about">About Me</Link>
   // ? <Link href="/portfolio">Portfolio</Link>

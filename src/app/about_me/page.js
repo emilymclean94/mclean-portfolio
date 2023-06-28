@@ -1,10 +1,10 @@
-// export default function About() {
-//   return (
-//     <main className="">
+export default function About() {
+  return (
+    <main className="">
      
-//     </main>
-//   )
-// }
+    </main>
+  )
+}
 
 // ! Welcome to the Pseudo Code!
 

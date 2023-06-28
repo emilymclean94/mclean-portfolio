@@ -1,10 +1,11 @@
 import Link from "next/link";
 import RootLayout from "./layout";
+import NavBar from "./components/Navbar";
 
 function Home() {
   return (
     <main className="">
-
+      <NavBar />
     </main>
   )
 }

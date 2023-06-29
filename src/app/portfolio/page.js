@@ -1,10 +1,12 @@
-// export default function Portfolio() {
-//   return (
-//     <main className="">
-     
-//     </main>
-//   )
-// }
+function Portfolio() {
+  return (
+    <main className="">
+     <h1>Portfolio goes here!</h1>
+    </main>
+  )
+}
+
+export default Portfolio;
 
 // ! Welcome to the Pseudo Code!
 

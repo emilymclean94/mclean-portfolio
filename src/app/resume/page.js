@@ -1,10 +1,12 @@
-// export default function Resume() {
-//   return (
-//     <main className="">
-     
-//     </main>
-//   )
-// }
+function Resume() {
+  return (
+    <main className="">
+     <h1>Resume page!</h1>
+    </main>
+  )
+}
+
+export default Resume;
 
 // ! Welcome to the Pseudo Code!
 

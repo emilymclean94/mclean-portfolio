@@ -1,10 +1,12 @@
-// export default function Contact() {
-//   return (
-//     <main className="">
-     
-//     </main>
-//   )
-// }
+function Contact() {
+  return (
+    <main className="">
+     <h1>Contact form to come!</h1>
+    </main>
+  )
+}
+
+export default Contact;
 
 // ! Welcome to the Pseudo Code!
 

@@ -29,6 +29,8 @@ export default Home;
   //  Link to contact form
   // ? onHover for all nav links
   // ? onHover for name in top left to link to homepage
+  // ? onClick
+  // ? Toggle hamburger menu
   
 
 // TODO: Footer

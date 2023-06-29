@@ -80,16 +80,26 @@ function NavBar() {
               }}
             >
               <MenuItem>
-                <Typography textAlign="center">About Me</Typography>
+                <Typography textAlign="center">
+                  <Link onClick={handleCloseNavMenu} href="/about_me">
+                    About Me
+                  </Link>
+                </Typography>
               </MenuItem>
               <MenuItem>
-                <Typography textAlign="center">Portfolio</Typography>
+                <Typography textAlign="center">
+                  <Link onClick={handleCloseNavMenu} href="/portfolio">Portfolio</Link>
+                </Typography>
               </MenuItem>
               <MenuItem>
-                <Typography textAlign="center">Resume</Typography>
+                <Typography textAlign="center">
+                  <Link onClick={handleCloseNavMenu} href="/Resume">Resume</Link>
+                </Typography>
               </MenuItem>
               <MenuItem>
-                <Typography textAlign="center">Contact</Typography>
+                <Typography textAlign="center">
+                  <Link onClick={handleCloseNavMenu} href="/contact">Contact</Link>
+                </Typography>
               </MenuItem>
             </Menu>
           </Box>
@@ -132,7 +142,7 @@ function NavBar() {
               <Link href="/resume">Resume</Link>
             </Button>
             <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link href='/contact'>Contact</Link>
+              <Link href="/contact">Contact</Link>
             </Button>
           </Box>
         </Toolbar>

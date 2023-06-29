@@ -1,11 +1,12 @@
-export default function About() {
+function About() {
   return (
     <main className="">
-     
+     <h1>About me page!</h1>
     </main>
   )
 }
 
+export default About;
 // ! Welcome to the Pseudo Code!
 
 // This will use the main layout that has the navbar and footer

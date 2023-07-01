@@ -15,7 +15,11 @@ function Footer() {
       display="flex"
       justifyContent="center"
     >
-      <BottomNavigation showLabels display="flex" justifyContent="center">
+      <BottomNavigation 
+      showLabels 
+      display="flex" 
+      justifyContent="center"
+      >
         <BottomNavigationAction
           label="GitHub"
           icon={<GitHubIcon />}

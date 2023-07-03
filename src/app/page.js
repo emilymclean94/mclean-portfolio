@@ -1,12 +1,12 @@
 'use client'
-// import Container from '@mui/material/Container';
+import './globals.css';
 import Box from '@mui/material/Box';
 
 function Home() {
   return (
-    <Box className="" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
-        <h1 style={{margin: 2, fontSize: '70px', letterSpacing: 10}}>EMILY McLEAN</h1>
-        <h3 style={{margin: 2, fontSize: '30px',  letterSpacing: 10}}>Fullstack Developer</h3>
+    <Box className="" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+          <h1 style={{ margin: 2, fontSize: '70px', letterSpacing: 10 }}>EMILY McLEAN</h1>
+          <h3 style={{ margin: 2, fontSize: '30px', letterSpacing: 10 }}>Fullstack Developer</h3>
     </Box>
   )
 }

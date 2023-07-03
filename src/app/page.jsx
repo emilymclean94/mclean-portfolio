@@ -41,7 +41,6 @@ function Home() {
   return (
     <div>
       <header>
-
         {/* Navigation Bar */}
         <AppBar
           position="fixed"
@@ -123,16 +122,24 @@ function Home() {
                 }}
               >
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link href="/about_me">About Me |</Link>
+                  <Link className="home-link" href="/about_me">
+                    About Me |
+                  </Link>
                 </CustomButton>
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link href="/portfolio">Portfolio |</Link>
+                  <Link className="home-link" href="/portfolio">
+                    Portfolio |
+                  </Link>
                 </CustomButton>
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link href="/resume">Resume |</Link>
+                  <Link className="home-link" href="/resume">
+                    Resume |
+                  </Link>
                 </CustomButton>
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link href="/contact">Contact |</Link>
+                  <Link className="home-link" href="/contact">
+                    Contact |
+                  </Link>
                 </CustomButton>
               </Box>
             </Toolbar>
@@ -163,29 +170,37 @@ function Home() {
 
       {/* Bottom nav and social links */}
       <footer>
-      <Box
-      sx={{ width: "auto", position: "fixed", bottom: 0, left: 0, right: 0 }}
-      display="flex"
-      // justifyContent="center"
-    >
-      <BottomNavigation 
-      showLabels 
-      display="flex" 
-      // justifyContent="center"
-      style={{ background: 'transparent', boxShadow: 'none'}}
-      >
-        <BottomNavigationAction
-          label="GitHub"
-          icon={<GitHubIcon />}
-          href="https://github.com/emilymclean94"
-        />
-        <BottomNavigationAction
-          label="LinkedIn"
-          icon={<LinkedInIcon />}
-          href="https://www.linkedin.com/in/emily-mclean-2a4896100/"
-        />
-      </BottomNavigation>
-    </Box>
+        <Box
+          sx={{
+            width: "auto",
+            position: "fixed",
+            bottom: 0,
+            left: 0,
+            right: 0,
+          }}
+          display="flex"
+          // justifyContent="center"
+        >
+          <BottomNavigation
+            showLabels
+            display="flex"
+            // justifyContent="center"
+            style={{ background: "transparent", boxShadow: "none" }}
+          >
+            <BottomNavigationAction
+              className="home-link"
+              label="GitHub"
+              icon={<GitHubIcon />}
+              href="https://github.com/emilymclean94"
+            />
+            <BottomNavigationAction
+              className="home-link"
+              label="LinkedIn"
+              icon={<LinkedInIcon />}
+              href="https://www.linkedin.com/in/emily-mclean-2a4896100/"
+            />
+          </BottomNavigation>
+        </Box>
       </footer>
     </div>
   );

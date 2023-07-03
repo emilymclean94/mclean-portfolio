@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
       <head>
         <title>Emily McLean</title>
       </head>
-      <body>
+      <body className='background'>
         <header>
           <NavBar />
         </header>
         {children}
-        
+
         <Footer />
 
       </body>

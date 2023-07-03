@@ -14,12 +14,10 @@
   } */
 }
 
-body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
+.background {
+  background-image: url("../../public/portfolio-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #423f32;
 }
+

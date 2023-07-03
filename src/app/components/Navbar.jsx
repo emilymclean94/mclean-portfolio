@@ -11,7 +11,17 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+import { styled } from '@mui/material/styles';
+// import { ThemeProvider, createTheme } from "@mui/material/"
+
+const CustomButton = styled(Button)({
+        borderRadius: 0,
+        borderColor: '#cdcfc0',
+        color: '#cdcfc0',
+        '&:hover': {
+          background: "transparent" 
+        }
+});
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -94,18 +104,18 @@ function NavBar() {
               display: { xs: "none", md: "flex", justifyContent: "flex-end" },
             }}
           >
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link href="/about_me">About Me</Link>
-            </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link href="/portfolio">Portfolio</Link>
-            </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link href="/resume">Resume</Link>
-            </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
-              <Link href="/contact">Contact</Link>
-            </Button>
+            <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
+              <Link href="/about_me">About Me |</Link>
+            </CustomButton>
+            <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
+              <Link href="/portfolio">Portfolio |</Link>
+            </CustomButton>
+            <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
+              <Link href="/resume">Resume |</Link>
+            </CustomButton>
+            <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
+              <Link href="/contact">Contact |</Link>
+            </CustomButton>
           </Box>
         </Toolbar>
       </Container>

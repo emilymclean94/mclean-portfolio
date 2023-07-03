@@ -1,17 +1,5 @@
-
-
-:root {
-  /* --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255; */
-}
-
-@media (prefers-color-scheme: dark) {
-  /* :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  } */
+body {
+  color: #cdcfc0;
 }
 
 .background {
@@ -20,4 +8,22 @@
   background-size: auto;
   background-color: #423f32;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #cdcfc0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 

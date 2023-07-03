@@ -18,7 +18,8 @@ function Footer() {
       <BottomNavigation 
       showLabels 
       display="flex" 
-      justifyContent="center"
+      // justifyContent="center"
+      style={{ background: 'transparent', boxShadow: 'none'}}
       >
         <BottomNavigationAction
           label="GitHub"

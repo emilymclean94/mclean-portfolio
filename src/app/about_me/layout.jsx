@@ -7,7 +7,7 @@ function AboutLayout({ children }) {
         <head>
           <title>Emily McLean</title>
         </head>
-        <body className='about-bg' sx={{height: 100}}>
+        <body id='about-bg' sx={{height: 100}}>
           <header>
             <NavBar />
           </header>

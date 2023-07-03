@@ -177,15 +177,14 @@ function Home() {
             bottom: 0,
             left: 0,
             right: 0,
+            justifyContent: "center"
           }}
           display="flex"
-          // justifyContent="center"
         >
           <BottomNavigation
             showLabels
             display="flex"
-            // justifyContent="center"
-            style={{ background: "transparent", boxShadow: "none" }}
+            style={{ background: "transparent", boxShadow: "none", justifyContent: "center" }}
           >
             <BottomNavigationAction
               className="home-link"

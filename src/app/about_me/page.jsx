@@ -30,7 +30,7 @@ function About() {
         <h1>Image goes here</h1>
       </Grid>
       <Grid item xs={4} style={{ textAlign: "left" }}>
-        <h3>Hi! I'm Emily McLean</h3>
+        <h2>Hi! I'm Emily McLean</h2>
         <p>Fullstack Developer</p>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae

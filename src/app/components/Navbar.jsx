@@ -19,7 +19,7 @@ const CustomButton = styled(Button)({
         borderColor: '#cdcfc0',
         color: '#cdcfc0',
         '&:hover': {
-          background: "transparent" 
+          backgroundColor: "rgb(205, 207, 192, 0.08)" 
         }
 });
 

@@ -26,10 +26,10 @@ const styles = {
 function About() {
   return (
     <Grid container style={styles.container}>
-      <Grid item xs={5} style={styles.aboutContainer}>
+      <Grid item xs={4} style={styles.aboutContainer}>
         <h1>Image goes here</h1>
       </Grid>
-      <Grid item xs={5} style={{ textAlign: "left" }}>
+      <Grid item xs={4} style={{ textAlign: "left" }}>
         <h3>Hi! I'm Emily McLean</h3>
         <p>Fullstack Developer</p>
         <p>

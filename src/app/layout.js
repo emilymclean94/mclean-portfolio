@@ -3,6 +3,7 @@ import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 
 
+
 export const metadata = {
   title: 'Emily McLean',
   description: 'Portfolio for Emily',
@@ -14,14 +15,14 @@ export default function RootLayout({ children }) {
       <head>
         <title>Emily McLean</title>
       </head>
-      <body className='background'>
+      <body className='background' sx={{height: 100}}>
         <header>
           <NavBar />
         </header>
-        {children}
-
-        <Footer />
-
+          {children}
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   )

@@ -2,6 +2,16 @@ body {
   color: #cdcfc0;
 }
 
+body > header {
+  position: fixed;
+  top: 0;
+}
+
+body > footer {
+  position: fixed;
+  bottom: 0;
+}
+
 .background {
   background-image: url("../../public/portfolio-bg.png");
   background-repeat: no-repeat;

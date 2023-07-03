@@ -1,12 +1,13 @@
-import Link from "next/link";
-import RootLayout from "./layout";
-import NavBar from "./components/Navbar";
+'use client'
+// import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 
 function Home() {
   return (
-    <main className="">
-      
-    </main>
+    <Box className="" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
+        <h1 style={{margin: 2, fontSize: '70px', letterSpacing: 10}}>EMILY McLEAN</h1>
+        <h3 style={{margin: 2, fontSize: '30px',  letterSpacing: 10}}>Fullstack Developer</h3>
+    </Box>
   )
 }
 

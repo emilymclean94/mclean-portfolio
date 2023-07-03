@@ -12,12 +12,41 @@ body > footer {
   bottom: 0;
 }
 
+/* ! Homepage background image */
 .background {
   background-image: url("../../public/portfolio-bg.png");
   background-repeat: no-repeat;
   background-size: auto;
-  background-color: #423f32;
+  background-color: rgb(66, 63, 50);
 }
+
+/* ! Homepage navbar and footer links */
+.home-link {
+  text-decoration: none;
+}
+
+.home-link:visited {
+  text-decoration: none;
+  color: rgb(205, 207, 192);
+}
+
+.home-link:hover {
+  text-decoration: none;
+}
+
+.home-link:active {
+  text-decoration: underline;
+}
+
+/* ! About me background img */
+#about-bg {
+  background-image: url("../../public/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #c8c2a7;
+}
+
+/* ! Nav and footer links for rest of site */
 
 a {
   text-decoration: none;
@@ -25,7 +54,7 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: rgb(205, 207, 192);
+  color: #423f32;
 }
 
 a:hover {
@@ -35,12 +64,3 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-
-.about-bg {
-   background-image: url("../../public/about-bg.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-color: #cdcfc0;
-}
-
-

@@ -17,13 +17,9 @@ export default function RootLayout({children}) {
         <title>Emily McLean</title>
       </head>
       <body className='background' sx={{ height: 100 }}>
-        <header>
-          <NavBar />
-        </header>
+        
         {children}
-        <footer>
-          <Footer />
-        </footer>
+        
       </body>
     </html>
   )

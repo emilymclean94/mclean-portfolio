@@ -64,3 +64,9 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
+/* ! Background for rest of pages */
+
+#general-bg {
+  background-color: #c8c2a7;
+}

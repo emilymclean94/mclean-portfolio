@@ -7,14 +7,6 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
 const styles = {
-    container: {
-      color: "#423f32",
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "space-evenly",
-      height: "100vh",
-      alignContent: "center",
-    },
     projectCard: {
       display: "flex",
       flexWrap: "wrap",
@@ -28,26 +20,24 @@ const styles = {
     },
   };
 
-function ProjectCards() {
+function ProjectCards({ image, title, description}) {
   return (
-    <Card
-    style={styles.projectCard}
-    >
+    <Card style={styles.projectCard}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="auto"
           width="auto"
-          image="/event-ease.png"
-          alt="stream verse screenshot"
+          image={image}
+          alt="project screenshot"
             style={styles.screenshotBg}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            <h1>Title</h1>
+            <h2>{title}</h2>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <p>Description</p>
+            <p>{description}</p>
           </Typography>
         </CardContent>
       </CardActionArea>

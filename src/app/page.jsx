@@ -148,7 +148,7 @@ function Home() {
       </header>
 
       {/* Main container with name and title */}
-      <main>
+      <Container>
         <Box
           className=""
           style={{
@@ -166,7 +166,7 @@ function Home() {
             Fullstack Developer
           </h3>
         </Box>
-      </main>
+      </Container>
 
       {/* Bottom nav and social links */}
       <footer>

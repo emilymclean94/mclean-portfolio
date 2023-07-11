@@ -8,11 +8,9 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { styled } from '@mui/material/styles';
-// import { ThemeProvider, createTheme } from "@mui/material/"
 
 const CustomButton = styled(Button)({
         borderRadius: 0,
@@ -35,9 +33,10 @@ function NavBar() {
   };
 
   return (
+    <div>
     <AppBar position="fixed" style={{ background: 'transparent', boxShadow: 'none'}}>
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+      {/* <Container maxWidth="xl"> */}
+        <Toolbar >
        
 
           {/* Appbar Full */}
@@ -118,8 +117,9 @@ function NavBar() {
             </CustomButton>
           </Box>
         </Toolbar>
-      </Container>
+      {/* </Container> */}
     </AppBar>
+    </div>
   );
 }
 

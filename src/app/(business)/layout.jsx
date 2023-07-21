@@ -1,22 +1,24 @@
 "use client";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Portfolio from "./portfolio/page";
-import Container from "@mui/material/Container";
 import "../global.css";
 
-function PortfolioLayout({children}) {
+function PortfolioLayout({ children }) {
   return (
-    <div>
-      <header>
-        <NavBar />
-      </header>
-      {children}
-        {/* <Portfolio /> */}
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <html lang="en">
+      <head>
+        <title>Emily McLean</title>
+      </head>
+      <body className="all-bg" sx={{ height: 100 }}>
+        <header>
+          <NavBar />
+        </header>
+        {children}
+        <footer>
+          <Footer />
+        </footer>
+      </body>
+    </html>
   );
 }
 

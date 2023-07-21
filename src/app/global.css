@@ -48,6 +48,11 @@ body > footer {
 
 /* ! Nav and footer links for rest of site */
 
+.all-bg {
+  background-color: #c8c2a7;
+}
+
+
 a {
   text-decoration: none;
 }

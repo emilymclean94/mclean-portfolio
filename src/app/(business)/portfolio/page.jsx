@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import Grid from "@mui/material/Grid";
-import ProjectCards from "../components/ProjectCards";
+import ProjectCards from "@/app/components/ProjectCards";
 // import StreamVerse from "../../../public/stream-verse.png";
 // import Container from "@mui/material/Container";
 

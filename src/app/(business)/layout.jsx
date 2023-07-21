@@ -1,17 +1,18 @@
 "use client";
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Portfolio from "./page";
+import Portfolio from "./portfolio/page";
 import Container from "@mui/material/Container";
-import "../globals.css";
+import "../global.css";
 
-function PortfolioLayout() {
+function PortfolioLayout({children}) {
   return (
     <div>
       <header>
         <NavBar />
       </header>
-        <Portfolio />
+      {children}
+        {/* <Portfolio /> */}
       <footer>
         <Footer />
       </footer>

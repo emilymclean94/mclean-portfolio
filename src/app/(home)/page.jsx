@@ -1,5 +1,5 @@
 "use client";
-import "./globals.css";
+import "../global.css";
 import Link from "next/link";
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
@@ -81,7 +81,7 @@ function Home() {
                 >
                   <MenuItem>
                     <Typography textAlign="center">
-                      <Link onClick={handleCloseNavMenu} href="/about_me">
+                      <Link onClick={handleCloseNavMenu} href="/about">
                         About Me
                       </Link>
                     </Typography>
@@ -122,7 +122,7 @@ function Home() {
                 }}
               >
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link className="home-link" href="/about_me">
+                  <Link className="home-link" href="/about">
                     About Me |
                   </Link>
                 </CustomButton>

@@ -72,6 +72,11 @@ function NavBar() {
             >
               <MenuItem>
                 <Typography textAlign="center">
+                  <Link onClick={handleCloseNavMenu} href="/">Home</Link>
+                </Typography>
+              </MenuItem>
+              <MenuItem>
+                <Typography textAlign="center">
                   <Link onClick={handleCloseNavMenu} href="/about">
                     About Me
                   </Link>
@@ -80,11 +85,6 @@ function NavBar() {
               <MenuItem>
                 <Typography textAlign="center">
                   <Link onClick={handleCloseNavMenu} href="/portfolio">Portfolio</Link>
-                </Typography>
-              </MenuItem>
-              <MenuItem>
-                <Typography textAlign="center">
-                  <Link onClick={handleCloseNavMenu} href="/Resume">Resume</Link>
                 </Typography>
               </MenuItem>
               <MenuItem>
@@ -104,14 +104,15 @@ function NavBar() {
             }}
           >
             <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
+              <Link href="/">Home |</Link>
+            </CustomButton>
+            <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
               <Link href="/about">About Me |</Link>
             </CustomButton>
             <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
               <Link href="/portfolio">Portfolio |</Link>
             </CustomButton>
-            <CustomButton sx={{ my: 2, color: "white", display: "block"}}>
-              <Link href="/resume">Resume |</Link>
-            </CustomButton>
+            
             <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
               <Link href="/contact">Contact |</Link>
             </CustomButton>

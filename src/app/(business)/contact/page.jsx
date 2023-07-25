@@ -5,13 +5,18 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import TextField from "@mui/material/TextField";
-// import Button from "@mui/material/Button";
 import { Grid } from "@mui/material";
 
 const CustomTextField = styled(TextField)({
+  // '& .MuiInputBase-input': {
+  //   backgroundColor: "rgb(66, 63, 50, 0.5)",
+  // },
   '& label.Mui-focused': {
     color: '#423f32',
     fontWeight: "bold",
+    // backgroundColor: "#423f32",
+    // padding: "0px 10px",
+    // borderRadius: "2px",
   },
   '& .MuiInput-underline:after': {
     borderBottomColor: '#B2BAC2',

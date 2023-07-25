@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import TextField from "@mui/material/TextField";
 import { Grid } from "@mui/material";
+import Button from "@mui/material/Button";
 
 const CustomTextField = styled(TextField)({
   // '& .MuiInputBase-input': {
@@ -52,6 +53,11 @@ const styles = {
     color: "#423f32",
     fontWeight: "bold",
     textAlign: "center",
+  },
+  submitBtn: {
+    color: "#c8c2a7",
+    backgroundColor: "#423f32",
+    borderRadius: "4px",
   }
 };
 
@@ -174,9 +180,10 @@ function Contact() {
             </div>
           )} */}
 
-          <button
+          <Button
             type="submit"
-            className=""
+            style={styles.submitBtn}
+            variant="contained"
           >
             {isSubmitting ? (
               <svg
@@ -202,7 +209,7 @@ function Contact() {
             ) : (
               "Send Message"
             )}
-          </button>
+          </Button>
         </form>
 
         {isSubmitSuccessful && isSuccess && (

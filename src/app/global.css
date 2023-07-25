@@ -50,6 +50,9 @@ body > footer {
 /* ! Nav and footer links for rest of site */
 
 .all-bg {
+  background-image: url("../../public/all-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
   background-color: #c8c2a7;
 }
 

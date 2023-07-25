@@ -1,13 +1,33 @@
 "use client";
 import React from "react";
-import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
+import { styled } from "@mui/material";
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import TextField from "@mui/material/TextField";
 // import Button from "@mui/material/Button";
 import { Grid } from "@mui/material";
+
+const CustomTextField = styled(TextField)({
+  '& label.Mui-focused': {
+    color: '#423f32',
+    fontWeight: "bold",
+  },
+  '& .MuiInput-underline:after': {
+    borderBottomColor: '#B2BAC2',
+  },
+  '& .MuiOutlinedInput-root': {
+    '& fieldset': {
+      borderColor: '#423f32',
+    },
+    '&:hover fieldset': {
+      borderColor: 'rgb(66, 63, 50, 0.5)',
+    },
+    '&.Mui-focused fieldset': {
+      borderColor: '#423f32',
+    },
+  },
+});
 
 const styles = {
   form: {
@@ -89,7 +109,7 @@ function Contact() {
             {...register("botcheck")}
           ></input>
 
-          <TextField
+          <CustomTextField
             fullWidth
             style={styles.inputs}
             id="outlined-basic"
@@ -109,7 +129,7 @@ function Contact() {
             </div>
           )} */}
 
-          <TextField
+          <CustomTextField
             fullWidth
             style={styles.inputs}
             id="outlined-basic"
@@ -132,7 +152,7 @@ function Contact() {
             </div>
           )} */}
 
-          <TextField
+          <CustomTextField
             fullWidth
             style={styles.inputs}
             id="outlined-multiline-static"

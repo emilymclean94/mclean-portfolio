@@ -18,6 +18,16 @@ const styles = {
   inputs: {
     margin: "5px",
   },
+  error: {
+    color: "red",
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  success: {
+    color: "#423f32",
+    fontWeight: "bold",
+    textAlign: "center",
+  }
 };
 
 function Contact() {
@@ -85,18 +95,19 @@ function Contact() {
             id="outlined-basic"
             type="text"
             required
+            name="name"
             label="Full Name"
             autoComplete="false"
-            {...register("name", {
-              required: "Full name is required",
-              maxLength: 80,
-            })}
+            // {...register("name", {
+            //   required: "Full name is required",
+            //   maxLength: 80,
+            // })}
           />
-          {errors.name && (
-            <div className="mt-1 text-red-600">
+          {/* {errors.name && (
+            <div style={styles.error}>
               <small>{errors.name.message}</small>
             </div>
-          )}
+          )} */}
 
           <TextField
             fullWidth
@@ -107,19 +118,19 @@ function Contact() {
             label="Email Address"
             name="email"
             autoComplete="false"
-            {...register("email", {
-              required: "Enter your email",
-              pattern: {
-                value: /^\S+@\S+$/i,
-                message: "Please enter a valid email",
-              },
-            })}
+            // {...register("email", {
+            //   required: "Enter your email",
+            //   pattern: {
+            //     value: /^\S+@\S+$/i,
+            //     message: "Please enter a valid email",
+            //   },
+            // })}
           />
-          {errors.email && (
-            <div className="mt-1 text-red-600">
+          {/* {errors.email && (
+            <div style={styles.error}>
               <small>{errors.email.message}</small>
             </div>
-          )}
+          )} */}
 
           <TextField
             fullWidth
@@ -130,20 +141,20 @@ function Contact() {
             rows={4}
             name="message"
             label="Your Message"
-            {...register("message", {
-              required: "Enter your Message",
-            })}
+            // {...register("message", {
+            //   required: "Enter your Message",
+            // })}
           />
-          {errors.message && (
-            <div className="mt-1 text-red-600">
+          {/* {errors.message && (
+            <div style={styles.error}>
               {" "}
               <small>{errors.message.message}</small>
             </div>
-          )}
+          )} */}
 
           <button
             type="submit"
-            className="w-full py-4 font-semibold text-white transition-colors bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-offset-2 focus:ring focus:ring-gray-200 px-7 dark:bg-white dark:text-black "
+            className=""
           >
             {isSubmitting ? (
               <svg
@@ -173,12 +184,12 @@ function Contact() {
         </form>
 
         {isSubmitSuccessful && isSuccess && (
-          <div className="mt-3 text-sm text-center text-green-500">
+          <div style={styles.success}>
             {message || "Success. Message sent successfully"}
           </div>
         )}
         {isSubmitSuccessful && !isSuccess && (
-          <div className="mt-3 text-sm text-center text-red-500">
+          <div style={styles.error}>
             {message || "Something went wrong. Please try later."}
           </div>
         )}

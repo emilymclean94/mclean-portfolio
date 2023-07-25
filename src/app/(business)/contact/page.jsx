@@ -123,10 +123,9 @@ function Contact() {
             name="name"
             label="Full Name"
             autoComplete="false"
-            // {...register("name", {
-            //   required: "Full name is required",
-            //   maxLength: 80,
-            // })}
+            {...register("name", {
+              maxLength: 80,
+            })}
           />
           {/* {errors.name && (
             <div style={styles.error}>
@@ -143,13 +142,11 @@ function Contact() {
             label="Email Address"
             name="email"
             autoComplete="false"
-            // {...register("email", {
-            //   required: "Enter your email",
-            //   pattern: {
-            //     value: /^\S+@\S+$/i,
-            //     message: "Please enter a valid email",
-            //   },
-            // })}
+            {...register("email", {
+              pattern: {
+                value: /^\S+@\S+$/i,
+              },
+            })}
           />
           {/* {errors.email && (
             <div style={styles.error}>
@@ -166,9 +163,9 @@ function Contact() {
             rows={4}
             name="message"
             label="Your Message"
-            // {...register("message", {
-            //   required: "Enter your Message",
-            // })}
+            {...register("message", {
+              maxLength: 240,
+            })}
           />
           {/* {errors.message && (
             <div style={styles.error}>

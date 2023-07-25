@@ -1,8 +1,8 @@
 "use client";
 import * as React from "react";
 import Box from "@mui/material/Box";
-// import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+import Image from "next/image";
 
 const styles = {
   container: {
@@ -19,7 +19,6 @@ const styles = {
     justifyContent: "center",
     height: "auto",
     width: "auto",
-    backgroundColor: "rgb(66, 63, 50, 0.5)",
   },
 };
 
@@ -28,11 +27,16 @@ function About() {
     <Box>
       <Grid container style={styles.container}>
         <Grid item xs={9} sm={5} md={4} style={styles.aboutContainer}>
-          <h1>Image goes here</h1>
+          <Image 
+          src="/headshot.jpg"
+          style={{objectFit: "cover", border: "solid rgb(66, 63, 50, 0.5) 20px"}}
+          width={500}
+          height={400}
+          alt="Headshot of Emily"></Image>
         </Grid>
         <Grid item xs={9} sm={5} md={4} style={{ textAlign: "left" }}>
-          <h2>Hi! I'm Emily McLean</h2>
-          <p>Fullstack Developer</p>
+          <h1>Hi! I'm Emily McLean</h1>
+          <h3>Fullstack Developer</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae
             et quaerat, iusto soluta corporis nostrum saepe fuga impedit ab a

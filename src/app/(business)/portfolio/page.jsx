@@ -2,7 +2,6 @@
 import * as React from "react";
 import Grid from "@mui/material/Grid";
 import ProjectCards from "@/app/components/ProjectCards";
-// import Container from "@mui/material/Container";
 
 const styles = {
   container: {

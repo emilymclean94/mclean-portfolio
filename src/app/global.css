@@ -79,3 +79,35 @@ a:active {
 #general-bg {
   background-color: #c8c2a7;
 }
+
+
+/* ! Media Queries */
+
+@media screen and (min-width: 700px) {
+  .home-title {
+    margin: 5px;
+    font-size: 70px;
+    letter-spacing: 10px;
+  }
+  .home-subtitle {
+    margin: 5px;
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .title-container {
+    padding-bottom: 100px;
+  }
+  .home-title {
+    margin: 5px;
+    font-size: 45px;
+    letter-spacing: 8px;
+  }
+  .home-subtitle {
+    margin: 5px;
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+}

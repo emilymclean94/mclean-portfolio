@@ -4,6 +4,7 @@ import Link from "next/link";
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
@@ -24,6 +25,22 @@ const CustomButton = styled(Button)({
   color: "#cdcfc0",
   "&:hover": {
     backgroundColor: "rgb(205, 207, 192, 0.08)",
+  },
+});
+
+const styles = (theme) => ({
+  root: {
+    [theme.breakpoints.down('md')]: {
+      h1: "50px",
+      h3: "20px",
+    },
+    [theme.breakpoints.up('md')]: {
+      h1: "70px",
+      h3: "30px"
+    },
+    [theme.breakpoints.up('lg')]: {
+      backgroundColor: green[500],
+    },
   },
 });
 
@@ -136,25 +153,30 @@ function Home() {
       </header>
 
       {/* Main container with name and title */}
-      <Container>
-        <Box
-          className=""
+      <Grid>
+        <Grid item
+        className="title-container"
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
             height: "100vh",
+            textAlign: "center",
           }}
         >
-          <h1 style={{ margin: 2, fontSize: "70px", letterSpacing: 10 }}>
+          <h1 
+          // style={{ margin: 2, fontSize: "70px", letterSpacing: 10 }}
+          className="home-title">
             EMILY McLEAN
           </h1>
-          <h3 style={{ margin: 2, fontSize: "30px", letterSpacing: 10 }}>
+          <h3 
+          // style={{ margin: 2, fontSize: "30px", letterSpacing: 10 }}
+          className="home-subtitle">
             Fullstack Developer
           </h3>
-        </Box>
-      </Container>
+        </Grid>
+      </Grid>
 
       {/* Bottom nav and social links */}
       <footer>

@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 // import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
@@ -25,27 +25,29 @@ const styles = {
 
 function About() {
   return (
-    <Grid container style={styles.container}>
-      <Grid item xs={4} style={styles.aboutContainer}>
-        <h1>Image goes here</h1>
+    <Box>
+      <Grid container style={styles.container}>
+        <Grid item xs={9} sm={5} md={4} style={styles.aboutContainer}>
+          <h1>Image goes here</h1>
+        </Grid>
+        <Grid item xs={9} sm={5} md={4} style={{ textAlign: "left" }}>
+          <h2>Hi! I'm Emily McLean</h2>
+          <p>Fullstack Developer</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae
+            et quaerat, iusto soluta corporis nostrum saepe fuga impedit ab a
+            voluptate dolor laboriosam inventore cumque vel obcaecati atque.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            tempora totam tenetur harum voluptatem dolore libero facere commodi
+            a, consectetur nihil ut quas, ratione porro, natus unde accusamus
+            quibusdam expedita? Repellendus magnam quo blanditiis repudiandae
+            perspiciatis neque asperiores nihil nesciunt totam. Numquam placeat
+            doloribus fuga ipsam, et odio, cum laborum reiciendis modi atque,
+            quod itaque nam dicta distinctio ipsa quas?
+          </p>
+        </Grid>
       </Grid>
-      <Grid item xs={4} style={{ textAlign: "left" }}>
-        <h2>Hi! I'm Emily McLean</h2>
-        <p>Fullstack Developer</p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae
-          et quaerat, iusto soluta corporis nostrum saepe fuga impedit ab a
-          voluptate dolor laboriosam inventore cumque vel obcaecati atque. Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Doloremque tempora
-          totam tenetur harum voluptatem dolore libero facere commodi a,
-          consectetur nihil ut quas, ratione porro, natus unde accusamus
-          quibusdam expedita? Repellendus magnam quo blanditiis repudiandae
-          perspiciatis neque asperiores nihil nesciunt totam. Numquam placeat
-          doloribus fuga ipsam, et odio, cum laborum reiciendis modi atque, quod
-          itaque nam dicta distinctio ipsa quas?
-        </p>
-      </Grid>
-    </Grid>
+    </Box>
   );
 }
 

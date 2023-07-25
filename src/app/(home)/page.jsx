@@ -95,13 +95,6 @@ function Home() {
                   </MenuItem>
                   <MenuItem>
                     <Typography textAlign="center">
-                      <Link onClick={handleCloseNavMenu} href="/Resume">
-                        Resume
-                      </Link>
-                    </Typography>
-                  </MenuItem>
-                  <MenuItem>
-                    <Typography textAlign="center">
                       <Link onClick={handleCloseNavMenu} href="/contact">
                         Contact
                       </Link>
@@ -129,11 +122,6 @@ function Home() {
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
                   <Link className="home-link" href="/portfolio">
                     Portfolio |
-                  </Link>
-                </CustomButton>
-                <CustomButton sx={{ my: 2, color: "white", display: "block" }}>
-                  <Link className="home-link" href="/resume">
-                    Resume |
                   </Link>
                 </CustomButton>
                 <CustomButton sx={{ my: 2, color: "white", display: "block" }}>

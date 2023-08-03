@@ -11,8 +11,8 @@ const styles = {
     flexWrap: "wrap",
     justifyContent: "space-evenly",
     height: "100vh",
-    alignContent: "center",
-    maxHeight: "80%"
+    // alignContent: "center",
+    maxHeight: "80%",
   },
   aboutContainer: {
     display: "flex",
@@ -26,7 +26,7 @@ const styles = {
 function About() {
   return (
     <Box>
-      <Grid container style={styles.container}>
+      <Grid container className="about-container" style={styles.container}>
         <Grid item xs={5} sm={9} md={4} style={styles.aboutContainer}>
           <Image 
           className="headshot"
@@ -42,6 +42,16 @@ function About() {
           <h1 style={{marginBottom: "3px"}}>Hi! I'm Emily McLean.</h1>
           <h3 style={{marginTop: "3px"}}>Fullstack Developer</h3>
           <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae
+            et quaerat, iusto soluta corporis nostrum saepe fuga impedit ab a
+            voluptate dolor laboriosam inventore cumque vel obcaecati atque.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+            tempora totam tenetur harum voluptatem dolore libero facere commodi
+            a, consectetur nihil ut quas, ratione porro, natus unde accusamus
+            quibusdam expedita? Repellendus magnam quo blanditiis repudiandae
+            perspiciatis neque asperiores nihil nesciunt totam. Numquam placeat
+            doloribus fuga ipsam, et odio, cum laborum reiciendis modi atque,
+            quod itaque nam dicta distinctio ipsa quas?
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quae
             et quaerat, iusto soluta corporis nostrum saepe fuga impedit ab a
             voluptate dolor laboriosam inventore cumque vel obcaecati atque.

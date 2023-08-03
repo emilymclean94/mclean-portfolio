@@ -1,8 +1,16 @@
 body {
   color: #cdcfc0;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+h1,
+h2,
+h3,
+a,
+Link,
+Typography {
+  
   font-family: 'Cormorant Garamond', serif;
-  /* font-family: 'Montserrat Alternates', sans-serif;
-  font-family: 'Secular One', sans-serif; */
 }
 
 body>header {
@@ -62,6 +70,7 @@ body>footer {
 
 a {
   text-decoration: none;
+  font-family: 'Abel', sans-serif;
 }
 
 a:visited {

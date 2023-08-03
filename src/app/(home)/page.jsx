@@ -187,7 +187,8 @@ function Home() {
             bottom: 0,
             left: 0,
             right: 0,
-            justifyContent: "center"
+            justifyContent: "center",
+            fontFamily: 'Ysabeau Office',
           }}
           display="flex"
         >

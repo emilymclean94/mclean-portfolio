@@ -22,6 +22,19 @@ const styles = {
   screenshotBg: {
     backgroundColor: "rgb(66, 63, 50, 0.5)",
   },
+  buttonPosition: {
+    display: "flex",
+    justifyContent: "space-evenly",
+  },
+  links: {
+    color: "#c8c2a7",
+    borderColor: "#cdcfc0",
+    border: "solid 3px",
+    fontWeight: "bold",
+    '&:hover': {
+      backgroundColor: "rgb(66, 63, 50, 0.08)" 
+    }
+  },
 };
 
 function ProjectCards({ image, title, description, github, app }) {
@@ -44,19 +57,22 @@ function ProjectCards({ image, title, description, github, app }) {
         </Typography>
 
         {/* Project Links */}
-        
-        <Link href={github}>
-          <Button variant="outlined" size="small">
-            <FaGithub />
-            Github
-          </Button>
-        </Link>
-        <Link href={app}>
-          <Button variant="outlined" size="small">
-            <CgWebsite />
-            Application
-          </Button>
-        </Link>
+
+        <div style={styles.buttonPosition}>
+          <Link href={github}>
+            <Button variant="outlined" size="small" style={styles.links}>
+              <FaGithub />
+              Github
+            </Button>
+          </Link>
+
+          <Link href={app}>
+            <Button variant="outlined" size="small" style={styles.links}>
+              <CgWebsite />
+              Application
+            </Button>
+          </Link>
+        </div>
       </CardContent>
     </Card>
   );

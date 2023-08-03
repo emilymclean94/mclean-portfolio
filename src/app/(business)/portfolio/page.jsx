@@ -17,6 +17,9 @@ function Portfolio() {
   return (
     <Grid container style={styles.container}>
       <Grid item xs={11} s={6} md={3}>
+
+        {/* StreamVerse Card */}
+
         <ProjectCards
           image="/movie-stock.jpg"
           title="StreamVerse"
@@ -25,6 +28,9 @@ function Portfolio() {
           app="https://streamversee.herokuapp.com/"
         />
       </Grid>
+
+      {/* Event Ease Card */}
+
       <Grid item xs={11} s={6} md={3}>
         <ProjectCards
           image="/event-stock.jpg"
@@ -34,6 +40,9 @@ function Portfolio() {
           app="https://event-ease.herokuapp.com/"
         />
       </Grid>
+
+      {/* Player One Reads Card */}
+      
       <Grid item xs={11} s={6} md={3}>
         <ProjectCards
           image="/book-stock.jpg"
@@ -48,16 +57,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
-// ! Welcome to the Pseudo Code!
-
-// Project cards
-// ! not sure if I want an onHover to show links to github/deployed app or just link in description
-//  containing <div>
-//  <img>
-// * onHover or onMouseOver? project image display div containing github repo link and deployed app link (both will be icons)
-// ? <div> with two icons and a semi-opaque background - Z INDEX TO DISPLAY ON TOP. Need absolute positioning??
-// * href link to github repo
-// * href link to deployed app
-//  <heading> for title of project
-//  <p> for description of project

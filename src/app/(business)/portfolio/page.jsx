@@ -3,6 +3,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 import ProjectCards from "@/app/components/ProjectCards";
 
+
 const styles = {
   container: {
     color: "#423f32",
@@ -24,7 +25,7 @@ function Portfolio() {
           image="/movie-stock.jpg"
           title="StreamVerse"
           description="The StreamVerse app allows the user to access, rate, and add movies to different lists (e.g., watched movies and movies to watch). After login, users can view their bio, saved movie list, and to be watched lists on their own dashboard. When a user searches a movie, they can rate it and save it to their watched list or just add it to their want to watch list. Users can add view friends' recent updates by clicking on their profile in in their friend list."
-          github="https://github.com/emilymclean94/movie-nova"
+          github="https://github.com/emilymclean94/stream_verse"
           app="https://streamversee.herokuapp.com/"
         />
       </Grid>

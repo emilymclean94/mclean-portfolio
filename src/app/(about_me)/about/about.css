@@ -1,6 +1,5 @@
 .about-container {
     display: flex;
-    height: 100vh;
 }
 
 .about-content {
@@ -9,6 +8,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 100;
 }
 
 .image-container {
@@ -38,9 +38,7 @@
 
     .about-content {
         flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
-        margin-top: 55px;
     }
 
     .image-container {
@@ -55,6 +53,5 @@
 
     .about-me {
         width: 350px;
-        height: auto;
     }
 }

@@ -25,8 +25,8 @@ function About() {
           <p>
           I'm a versatile web developer with a passion for reading, video games, making art, and traveling. Inspired by my experiences as an Archeological Technician for the National Park Service, I bring attention to detail, communication skills, and adaptability to my web projects. My love for exploration and creative expression fuels my curiosity in crafting user-friendly websites that leave a positive impact and overcoming challenges with innovative solutions.
           </p>
-          <h3>Technologies I Use:</h3>
-          <p>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
+          <h3 style={{marginBottom: "0px"}}>Technologies I Use:</h3>
+          <p style={{marginTop: "3px", marginBottom: "55px"}}>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
         </div>
       </Container>
     </Box>
@@ -34,6 +34,7 @@ function About() {
 }
 
 export default About;
+
 // ! Welcome to the Pseudo Code!
 
 // This will use the main layout that has the navbar and footer

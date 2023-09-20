@@ -34,7 +34,7 @@ function NavBar() {
 
   return (
     <div>
-    <AppBar position="fixed" style={{ background: 'transparent', boxShadow: 'none'}}>
+    <AppBar position="relative" style={{ background: 'transparent', boxShadow: 'none'}}>
       {/* <Container maxWidth="xl"> */}
         <Toolbar >
        

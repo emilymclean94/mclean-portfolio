@@ -1,6 +1,7 @@
 import NavBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../global.css";
+import "./about/about.css";
 
 function AboutLayout({ children }) {
   return (
@@ -15,7 +16,7 @@ function AboutLayout({ children }) {
         ></link>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Ysabeau+Office&display=swap" rel="stylesheet"></link>
       </head>
-      <body id="about-bg" sx={{ height: 100 }}>
+      <body id="about-bg">
         <header>
           <NavBar />
         </header>

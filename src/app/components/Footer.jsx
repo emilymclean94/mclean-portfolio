@@ -10,13 +10,8 @@ function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box
-      sx={{ width: "auto", position: "inherit", bottom: 0, left: 0, right: 0 }}
-      display="flex"
-      style={{justifyContent: 'center'}}
-    >
+   
       <BottomNavigation 
-      showLabels 
       display="flex" 
       style={{ background: 'transparent', boxShadow: 'none', justifyContent: 'center'}}
       >
@@ -31,7 +26,7 @@ function Footer() {
           href="https://www.linkedin.com/in/emily-mclean-2a4896100/"
         />
       </BottomNavigation>
-    </Box>
+
   );
 }
 

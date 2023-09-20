@@ -1,7 +1,7 @@
 body {
   color: #cdcfc0;
   font-family: 'Ysabeau Office', sans-serif;
-  height: 90vh;
+  height: 100vh
 }
 
 h1,
@@ -14,13 +14,6 @@ Typography {
   font-family: 'Cormorant Garamond', serif;
 }
 
-body>header {
-  position: relative;
-}
-
-body>footer {
-  position: relative;
-}
 
 /* ! Homepage background image */
 .background {

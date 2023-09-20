@@ -20,7 +20,9 @@ function AboutLayout({ children }) {
         <header>
           <NavBar />
         </header>
+        <main>
         {children}
+        </main>
         <footer>
           <Footer />
         </footer>

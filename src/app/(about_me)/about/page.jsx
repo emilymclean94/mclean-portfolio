@@ -1,44 +1,25 @@
 "use client";
 import * as React from "react";
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 import Image from "next/image";
-
-const styles = {
-  container: {
-    color: "#423f32",
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "space-evenly",
-    height: "100vh",
-    // alignContent: "center",
-    maxHeight: "80%",
-  },
-  aboutContainer: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    height: "auto",
-    width: "auto",
-  },
-};
+import "./about.css";
 
 function About() {
   return (
-    <Box>
-      <Grid container className="about-container" style={styles.container}>
-        <Grid item xs={5} sm={9} md={4} style={styles.aboutContainer}>
+    <Box className="about-container">
+      <Container  className="about-content">
+        <div className="image-container">
           <Image 
           className="headshot"
           src="/headshot.jpg"
-          style={{objectFit: "cover", border: "solid rgb(66, 63, 50, 0.5) 20px"}}
           width={500}
           height={400}
           alt="Headshot of Emily"></Image>
-        </Grid>
-        <Grid 
+        </div>
+        <div 
         className="about-me"
-        item xs={9} sm={9} md={4} style={{ textAlign: "left" }}>
+        item  style={{ textAlign: "left" }}>
           <h1 style={{marginBottom: "3px"}}>Hi! I'm Emily McLean.</h1>
           <h3 style={{marginTop: "3px"}}>Fullstack Developer</h3>
           <p>
@@ -46,8 +27,8 @@ function About() {
           </p>
           <h3>Technologies I Use:</h3>
           <p>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
-        </Grid>
-      </Grid>
+        </div>
+      </Container>
     </Box>
   );
 }

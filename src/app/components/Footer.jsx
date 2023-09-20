@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <Box
-      sx={{ width: "auto", position: "fixed", bottom: 0, left: 0, right: 0 }}
+      sx={{ width: "auto", position: "inherit", bottom: 0, left: 0, right: 0 }}
       display="flex"
       style={{justifyContent: 'center'}}
     >

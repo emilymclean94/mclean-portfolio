@@ -1,22 +1,22 @@
 "use client";
 import * as React from "react";
-import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Image from "next/image";
 import "./about.css";
 
 function About() {
   return (
-    <Container className="about-container">
-        <Box className="image-container">
+    <Grid className="about-container">
+        <Grid item className="image-container">
           <Image 
           className="headshot"
           src="/headshot.jpg"
           width={500}
           height={400}
           alt="Headshot of Emily"></Image>
-        </Box>
-        <Box 
+        </Grid>
+        <Grid item 
         className="about-me"
         style={{ textAlign: "left" }}>
           <h1 style={{marginBottom: "3px"}}>Hi! I'm Emily McLean.</h1>
@@ -26,8 +26,8 @@ function About() {
           </p>
           <h3 style={{marginBottom: "0px"}}>Technologies I Use:</h3>
           <p style={{marginTop: "3px"}}>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
-        </Box>
-    </Container>
+        </Grid>
+    </Grid>
   );
 }
 

@@ -30,9 +30,9 @@ main {
     width: 500px;
     height: 600px;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /*! Media Queries */

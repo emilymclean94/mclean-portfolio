@@ -7,6 +7,8 @@ import useWeb3Forms from "@web3forms/react";
 import TextField from "@mui/material/TextField";
 import { Grid } from "@mui/material";
 import Button from "@mui/material/Button";
+import "./contact.css";
+
 
 const CustomTextField = styled(TextField)({
   // '& .MuiInputBase-input': {
@@ -100,21 +102,19 @@ function Contact() {
   return (
     <Grid
     container
+    className="contact-container"
       height="100vh"
-      sx={{
-        justifyContent: "center",
-        alignItems: "center",
-      }}
     >
-      <Grid item xs={11} s={6} md={5}>
+      <Grid item>
+      <h1 className="contact-title">Feel free to contact me below!</h1>
+      </Grid>
+      <Grid item className="contact-form">
         <form
           style={styles.form}
           onSubmit={handleSubmit(onSubmit)}
-          className=""
         >
           <input
             type="checkbox"
-            id=""
             className="hidden"
             style={{ display: "none" }}
             {...register("botcheck")}
@@ -181,6 +181,7 @@ function Contact() {
           )} */}
 
           <Button
+            className="submit-btn"
             type="submit"
             style={styles.submitBtn}
             variant="contained"
@@ -228,48 +229,6 @@ function Contact() {
 }
 
 export default Contact;
-
-// ! Welcome to the Pseudo Code!
-
-// TODO: Contact Form
-// ? container <div>
-// ? div for contents so that it can be flexed
-// ? heading for form
-// ? <form> container
-// ? <div> for form group
-// ? form <label>
-// ? form <input>
-
-// TODO: Form Title
-// ? <h1>
-
-// TODO: Input for name
-// ? form group <div>
-// ? label
-// ? input
-// ? onMouseOver change cursor
-// ? onFocus - how does the input box change when clicked on
-
-// TODO: Input for email
-// ? form group <div>
-// ? label
-// ? input
-// ? onMouseOver change cursor
-// ? onFocus - how does the input box change when clicked on
-
-// TODO: Input for message
-// ? form group <div>
-// ? label
-// ? input
-// ? character limit?
-// ? larger size box
-// ? onMouseOver change cursor
-// ? onFocus - how does the input box change when clicked on
-
-// TODO: Submit button
-// ? onHover slight change to button
-// * onSubmit - when form is "submitted" send to email
-// * refresh page when form is submitted
 
 {
   /* <Box className="">

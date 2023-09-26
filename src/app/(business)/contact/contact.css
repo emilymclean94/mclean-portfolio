@@ -1,0 +1,37 @@
+.contact-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-title {
+    color: #423f32;
+}
+
+.contact-form {
+    width: 620px;
+    height: 305px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+    .contact-title {
+        font-size: 22px;
+    }
+
+    .contact-form {
+        width: auto;
+        height: auto;
+    }
+
+    .submit-btn {
+        font-size: 11px;
+        margin: 5px;
+    }
+
+    #form-text-field {
+        font-size: 11px;
+    }
+}

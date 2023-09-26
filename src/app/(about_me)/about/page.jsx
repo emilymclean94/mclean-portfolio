@@ -8,15 +8,15 @@ import "./about.css";
 function About() {
   return (
     <Container className="about-container">
-        <div className="image-container">
+        <Box className="image-container">
           <Image 
           className="headshot"
           src="/headshot.jpg"
           width={500}
           height={400}
           alt="Headshot of Emily"></Image>
-        </div>
-        <div 
+        </Box>
+        <Box 
         className="about-me"
         style={{ textAlign: "left" }}>
           <h1 style={{marginBottom: "3px"}}>Hi! I'm Emily McLean.</h1>
@@ -26,7 +26,7 @@ function About() {
           </p>
           <h3 style={{marginBottom: "0px"}}>Technologies I Use:</h3>
           <p style={{marginTop: "3px"}}>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
-        </div>
+        </Box>
     </Container>
   );
 }

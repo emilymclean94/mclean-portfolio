@@ -101,6 +101,7 @@ function Contact() {
 
   return (
     <Grid
+    direction="column"
     container
     className="contact-container"
       height="100vh"

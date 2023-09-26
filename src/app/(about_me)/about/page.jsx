@@ -17,9 +17,11 @@ function About() {
           alt="Headshot of Emily"></Image>
         </Grid>
         <Grid item 
+        direction="column"
         className="about-me"
         style={{ textAlign: "left" }}>
           <h1 style={{marginBottom: "3px"}}>Hi! I'm Emily McLean.</h1>
+          
           <h3 style={{marginTop: "3px"}}>Fullstack Developer</h3>
           <p>
           I'm a versatile web developer with a passion for reading, video games, making art, and traveling. Inspired by my experiences as an Archeological Technician for the National Park Service, I bring attention to detail, communication skills, and adaptability to my web projects. My love for exploration and creative expression fuels my curiosity in crafting user-friendly websites that leave a positive impact and overcoming challenges with innovative solutions.

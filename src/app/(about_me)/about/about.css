@@ -30,8 +30,6 @@ main {
     width: 500px;
     height: 600px;
     display: flex;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -59,7 +57,7 @@ main {
 
     .about-me {
         width: 350px;
-        align-items: center;
-        justify-content: flex-start;
+        /* align-items: center;
+        justify-content: flex-start; */
     }
 }

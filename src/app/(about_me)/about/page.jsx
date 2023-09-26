@@ -7,7 +7,7 @@ import "./about.css";
 
 function About() {
   return (
-    <Grid className="about-container">
+    <Grid container className="about-container">
         <Grid item className="image-container">
           <Image 
           className="headshot"

@@ -42,12 +42,13 @@ main {
     }
 
     .about-container {
-        
+        margin: 0;
     }
 
     .image-container {
         width: 300px;
         height: 300px;
+        align-items: flex-end;
     }
 
     .headshot {
@@ -57,7 +58,6 @@ main {
 
     .about-me {
         width: 350px;
-        /* align-items: center;
-        justify-content: flex-start; */
+        justify-content: flex-start;
     }
 }

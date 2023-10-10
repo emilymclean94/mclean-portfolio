@@ -18,6 +18,6 @@ Technologies used for this project include:
 
 ## Screenshots
 
-![portfolio-homepage](/mclean-portfolio/public/screenshot-home.png)
-![portfolio-projects](/mclean-portfolio/public/screenshot-projects.png)
-![portfolio-contact](/mclean-portfolio/public/screenshot-contact.png)
+![portfolio-homepage](public/screenshot-home.png)
+![portfolio-projects](public/screenshot-projects.png)
+![portfolio-contact](public/screenshot-contact.png)

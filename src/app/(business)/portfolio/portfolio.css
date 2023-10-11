@@ -1,0 +1,10 @@
+.MuiTypography-root>h2 {
+    font-size: 35px;
+    margin: 5px;
+    text-align: center;
+}
+
+.MuiTypography-root>p {
+    font-size: 20px;
+    text-align: center;
+}

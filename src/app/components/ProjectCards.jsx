@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import { FaGithub } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import Link from "next/link";
+import "../(business)/portfolio/portfolio.css";
 
 const styles = {
   projectCard: {

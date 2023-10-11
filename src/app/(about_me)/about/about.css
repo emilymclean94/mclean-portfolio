@@ -33,6 +33,18 @@ main {
     justify-content: center;
 }
 
+.about-me>h1 {
+    font-size: 45px;
+}
+
+.about-me>h3 {
+    font-size: 25px;
+}
+
+.about-me>p {
+    font-size: 20px;
+}
+
 /*! Media Queries */
 
 @media screen and (max-width: 768px) {
@@ -59,5 +71,17 @@ main {
     .about-me {
         width: 350px;
         justify-content: flex-start;
+    }
+
+    .about-me>h1 {
+        font-size: 30px;
+    }
+
+    .about-me>h3 {
+        font-size: 20px;
+    }
+
+    .about-me>p {
+        font-size: 18px;
     }
 }

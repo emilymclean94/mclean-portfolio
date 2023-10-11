@@ -27,7 +27,7 @@ function About() {
           I'm a versatile web developer with a passion for reading, video games, making art, and traveling. Inspired by my experiences as an Archeological Technician for the National Park Service, I bring attention to detail, communication skills, and adaptability to my web projects. My love for exploration and creative expression fuels my curiosity in crafting user-friendly websites that leave a positive impact and overcoming challenges with innovative solutions.
           </p>
           <h3 style={{marginBottom: "0px"}}>Technologies I Use:</h3>
-          <p style={{marginTop: "3px"}}>HTML, CSS, JavaScript, jQuery, Express, React, Next, Node, Bootstrap, Bulma, Material UI</p>
+          <p style={{marginTop: "3px"}}>HTML, CSS, JavaScript, jQuery, Express.js, React.js, Next.js, Node.js, Bootstrap, Bulma, Material UI, Vercel, Heroku</p>
         </Grid>
     </Grid>
   );

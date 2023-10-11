@@ -1,3 +1,4 @@
+
 main {
     display: flex;
     align-items: center;
@@ -7,7 +8,6 @@ main {
 
 .about-container {
     display: flex;
-    color: #423f32;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -31,19 +31,30 @@ main {
     height: 600px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-me>h1 {
-    font-size: 45px;
+    font-size: 40px;
+    color: #423f32;
 }
 
 .about-me>h3 {
     font-size: 25px;
+    color: #423f32;
 }
 
 .about-me>p {
     font-size: 20px;
+    margin: 5px;
+    color: #423f32;
 }
+
+.MuiButton-root {
+    color: #c8c2a7;
+}
+
+
 
 /*! Media Queries */
 

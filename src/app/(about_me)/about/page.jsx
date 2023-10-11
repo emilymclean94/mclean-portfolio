@@ -12,7 +12,7 @@ const styles = {
     width: "90px",
     margin: "5px",
     fontWeight: "700",
-    fontSize: "20px",
+    fontSize: "15px",
     fontFamily: "Cormorant Garamond",
   },
 };

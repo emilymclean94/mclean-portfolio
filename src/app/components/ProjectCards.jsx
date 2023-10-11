@@ -39,11 +39,12 @@ const styles = {
 
 function ProjectCards({ image, title, description, github, app }) {
   return (
-    <Card style={styles.projectCard}>
+    <Card 
+    style={styles.projectCard}>
       <CardMedia
         component="img"
-        height="auto"
-        width="auto"
+        height="300px"
+        width="400px"
         image={image}
         alt="project screenshot"
         style={styles.screenshotBg}
@@ -52,7 +53,7 @@ function ProjectCards({ image, title, description, github, app }) {
         <Typography gutterBottom variant="h5" component="div">
           <h2>{title}</h2>
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" fontSize={22}>
           <p>{description}</p>
         </Typography>
 

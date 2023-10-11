@@ -19,7 +19,7 @@ Typography {
 .background {
   background-image: url("../../public/portfolio-bg.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: rgb(66, 63, 50);
   overflow: hidden;
 }
@@ -46,7 +46,7 @@ Typography {
 #about-bg {
   background-image: url("../../public/about-bg.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: #c8c2a7;
 }
 
@@ -55,7 +55,7 @@ Typography {
 .all-bg {
   background-image: url("../../public/all-bg.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-color: #c8c2a7;
 }
 
